@@ -40,8 +40,7 @@ function continuacao() {
 
         mensagem += "\n\nTente adivinhar qual cor eu escolhi:";
         var inputUsuario = prompt(mensagem);
-        console.log(inputUsuario);
-        debugger;
+        console.log(inputUsuario);        
 
         if (inputUsuario.toLowerCase() == corEscolhida.toLowerCase()) {
             document.body.style.backgroundColor = corEscolhida;
